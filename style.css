@@ -1,0 +1,160 @@
+.clock {
+    transform: scale(0.6); /* Adjust the scale value to resize the clock */
+    transform-origin: center;
+  }
+.round{
+    border: 20px solid rgb(228, 228, 244);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    /* text-align: center; */
+    margin:0 auto;
+    position: relative;
+}
+.round:hover{
+box-shadow: 5px 10px 45px rgb(161, 111, 111);
+}
+.round .point{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.hour{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+} 
+.hour-1{
+    top: 40px;
+    right:130px ;
+}
+.hour-2{
+    top: 125px;
+    right:45px;
+}
+.hour-3{
+    top: 235px;
+    right:10px;
+}
+.hour-4{
+    top: 345px;
+    right:45px;
+}
+.hour-5{
+    top: 430px;
+    right:130px;
+}
+.hour-6{
+    bottom: 10px;
+    left:240px;
+}
+.hour-7{
+    top: 430px;
+    left:130px;
+}
+.hour-8{
+    top: 345px;
+    left:45px ;
+}
+.hour-9{
+    top: 235px;
+    left:10px;
+}
+.hour-10{
+    top: 125px;
+    left:45px;
+}
+.hour-11{
+    top: 40px;
+    left:130px;
+}
+.hour-12{
+    top: 10px;
+    left:235px ;
+}
+.brand{
+    font-size: 30px;
+    font-weight: bold;
+    top: 100px;
+    left: 40%;
+    position: absolute;
+    color:rgb(18, 18, 234) ;
+
+}
+.brand p{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+.hand-min-wrapped{
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: bisque;
+    opacity: 0.4;
+  
+}
+.min-hand{
+     position: relative;
+}
+.min-hand .hand{
+    width:4px;
+    height:200px;
+    position: absolute;
+    background-color:rgb(0, 98, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    left:198px;
+}
+.hand-hr-wrapped{
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  
+}
+.hr-hand{
+    position: relative;
+}
+.hr-hand .hand{
+    width:4px;
+    height:150px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    left:148px;
+}
+.second-hr-wrapped{
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+  
+}
+.second-hand{
+    position: relative;
+}
+.second-hand .hand{
+    width:2px;
+    height:175px;
+    position: absolute;
+    background-color: rgb(123, 123, 123);
+    left:174px;
+}
